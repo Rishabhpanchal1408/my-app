@@ -6,9 +6,16 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 15%;
+    width: 200px;
     background-color: rgb(228, 42, 42);
     height: 100vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-content-area {
+        margin-left: 200px;
+        padding: 20px 40px;
+    }
 }
 
 .sidebar>ul {
@@ -26,4 +33,54 @@
 .sidebar>ul>li>a:hover {
     background-color: white;
     color: black;
+}
+
+.sub-heading {
+    font-size: 40px;
+    margin: 10px 0px;
+    color: rgb(228, 42, 42);
+}
+
+.divider {
+    border: 5px solid rgb(228, 42, 42);
+    border-radius: 5px;
+    width: 50px;
+    margin-right: auto;
+    margin-left: 0;
+    opacity: 1;
+    height: 11px;
+}
+
+s .main-heading {
+    font-size: 60px;
+}
+
+.gallery-image {
+    opacity: 0.5;
+}
+
+.gallery-image:hover {
+    opacity: 1;
+}
+
+div>ul {
+    list-style-type: none;
+}
+
+.form {
+    font-size: 20px;
+    font-style: bold;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.plan {
+    background-color: rgb(221, 221, 221);
+}
+
+form label {
+    font-size: 20px;
 }
