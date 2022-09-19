@@ -26,7 +26,7 @@ const Cardgallery = () => {
     ]
     return (
         <>
-            <div className="container row  pt-4" id='DESIGNERS'>
+            <div className="container row mx-auto pt-4" id='DESIGNERS'>
                 {
                     myCards.map(function (card, index) {
                         return <Card key={index} carddetails={card} />

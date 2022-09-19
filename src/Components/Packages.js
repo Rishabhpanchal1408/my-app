@@ -3,8 +3,8 @@ import React from 'react'
 const Packages = (props) => {
     return (
         <>
-            <div className="container row  mt-5" id='PACKAGES'>
-                <div className='form container col-sm-12 col-md-6'>
+            <div className="container row mt-5 mx-auto" id='PACKAGES'>
+                <div className='form col-sm-12 col-md-6'>
                     <ul className='text-center plan ps-0'>
                         <li className='text-center text-light bg-secondary p-4'><b>Basic</b></li>
                         <li className='text-center pt-3'>Floor Planning</li><hr />
@@ -16,7 +16,7 @@ const Packages = (props) => {
                         <li className='text-center'><button className='btn btn-light btn-lg rounded-0'>Sign-up</button></li><hr />
                     </ul>
                 </div>
-                <div className='form container col-sm-12 col-md-6'>
+                <div className='form col-sm-12 col-md-6'>
                     <ul className='text-center plan ps-0'>
                         <li className='text-center text-light bg-danger p-4'><b>Pro</b></li>
                         <li className='text-center pt-3'>Floor Planning</li><hr />

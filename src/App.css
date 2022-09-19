@@ -3,19 +3,12 @@
 }
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 200px; */
     background-color: rgb(228, 42, 42);
-    height: 100vh;
-}
-
-@media only screen and (min-width: 600px) {
-    .main-content-area {
-        margin-left: 200px;
-        padding: 20px 40px;
-    }
+    /* height: 100vh; */
 }
 
 .sidebar>ul {
